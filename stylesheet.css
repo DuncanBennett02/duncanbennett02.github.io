@@ -1,0 +1,69 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(vaporwater.gif);
+    background-image: repeat;
+    background-size: 100%;
+}
+
+img {
+    width: 30%
+}
+
+h1 {
+    color: rgb(228, 214, 235);
+    font-size: 5em;
+    line-height: 40%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h4, #thatguy {
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(228, 214, 235)
+}
+
+#thatguy {
+    text-decoration: underline;
+}
+
+#happyfoot {
+    text-align: left;
+    color:rgb(228, 214, 235)
+}
+
+#mainBody {
+    width: 64%;
+    height: 10em;
+    color:rgb(228, 214, 235)
+}
+
+.listStyle {
+    display: inline;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(92, 12, 57);
+}
+
+a:hover {
+    color: rgb(193, 163, 202);
+}
+
+a:active {
+    color: #dcc4d2;
+}
