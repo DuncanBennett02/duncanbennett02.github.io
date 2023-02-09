@@ -1,69 +1,102 @@
 * {
     font-family: 'Poppins', sans-serif;
-}
-
-body {
-    background-image: url(vaporwater.gif);
+    margin:0; padding:0;
+    background-color: #FFF0A5;
     background-image: repeat;
     background-size: 100%;
 }
 
-img {
-    width: 30%
+#wrapper {
+    width:80%; 
+    margin:auto;
 }
 
+/*HEADER*/
 h1 {
-    color: rgb(228, 214, 235);
     font-size: 5em;
     line-height: 40%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    z-index: 1;
+    line-height: 1em;
+    position: relative;
 }
+
+.subheader {
+    font-size: 2.5em;
+    margin-top:1em;
+}
+
+h1, h4, h3 {
+    text-align: left;
+    text-transform: uppercase;
+    color:#304F48;
+}
+
+/*NAV*/
 
 ul {
-    list-style-type: none;
+    width: 100%;
+    margin: 0%;
+    padding-left: 0%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-right: 100%;
+    list-style-type:none;
 }
 
-h1, h4, #thatguy {
-    text-align: center;
-    text-transform: uppercase;
-    color:rgb(228, 214, 235)
+#skills {
+    display:inline;
+    margin: 100em;
+    color: #304F48;
 }
 
-#thatguy {
-    text-decoration: underline;
+/*BODY*/
+
+img {
+    width: 80%;
+    z-index: -1000;
+    column-span: 1;
 }
+
+p {
+    height: 2em;
+    color:#304F48;
+    margin-right: 30%;
+}
+
+#superbio {
+    float: right;
+    margin-bottom: 2%;
+    padding-bottom: 10%;
+}
+
+#maincontent {
+    column-count: 2;
+}
+
+/*FOOTER*/
 
 #happyfoot {
     text-align: left;
-    color:rgb(228, 214, 235)
+    margin-top: 4%;
+    margin-bottom: 20%;
 }
 
-#mainBody {
-    width: 64%;
-    height: 10em;
-    color:rgb(228, 214, 235)
-}
+/*LINKS*/
 
 .listStyle {
-    display: inline;
+    display:flexbox;
 }
-
-nav {
-    flex: 1;
-    text-align: center;
-}
-
 a:link {
-    color: rgb(96, 157, 192);
+    color: #FFB03B;
 }
-
 a:visited {
-    color: rgb(92, 12, 57);
+    color: #304F48;
 }
-
 a:hover {
-    color: rgb(193, 163, 202);
+    color: #B64926;
 }
-
 a:active {
     color: #dcc4d2;
 }
