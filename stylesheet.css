@@ -12,6 +12,7 @@
 }
 
 /*HEADER*/
+
 h1 {
     font-size: 5em;
     line-height: 40%;
@@ -92,3 +93,9 @@ a:hover {
 a:active {
     color: #dcc4d2;
 }
+
+@media only screen and (max-width: 800px) {
+    #wrapper {
+        width: 100%
+    }
+} /* smaller than mobile */ 
