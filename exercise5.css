@@ -30,9 +30,6 @@ ul {
 
 }
 
-/* I want to display only the nav list as inline
-but attributing this id doesn't seem to work */
-
 .listStyle {
 
     display: inline;
@@ -85,8 +82,6 @@ a:hover {
 a:active {
     color: #dcc4d2;
 }
-
-/* media query not applying to nav list - why? */
 
 @media only screen and (max-width: 1000px) {
 
