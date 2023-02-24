@@ -1,0 +1,97 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff4bb;
+
+}
+
+#wrapper {
+
+    width:100%;
+    margin: auto;
+
+}
+
+.row {
+    
+    padding-bottom: 4rem;
+
+}
+
+header {
+
+    text-align: right;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+}
+
+/* I want to display only the nav list as inline
+but attributing this id doesn't seem to work */
+
+.listStyle {
+
+    display: inline;
+    padding: 1rem;
+    white-space: nowrap;
+    text-align: right;
+
+}
+
+.profText {
+
+    font-size: 2.5rem;
+    color: #B64926;
+
+}
+
+h1 {
+
+    font-size: 9rem;
+    font-weight: 1000;
+
+}
+
+h1, h4, h3 {
+
+    color:#304F48;
+
+}
+
+.subheader {
+
+    font-size: 4rem;
+    
+}
+
+/*LINKS*/
+
+.listStyle {
+    display:flexbox;
+}
+a:link {
+    color: #FFB03B;
+}
+a:visited {
+    color: #304F48;
+}
+a:hover {
+    color: #B64926;
+}
+a:active {
+    color: #dcc4d2;
+}
+
+/* media query not applying to nav list - why? */
+
+@media only screen and (max-width: 1000px) {
+
+    header {
+        text-align: center;
+    }
+
+}
