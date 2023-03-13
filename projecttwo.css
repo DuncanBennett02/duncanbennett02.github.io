@@ -1,0 +1,113 @@
+.date {
+
+  font-family: 'Londrina Solid', cursive;
+  font-size: 10rem;
+  text-align: center;
+  font-weight: 10rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  padding-top: 5%;
+
+}
+
+.year {
+
+  position: absolute;
+width: 961px;
+height: 710px;
+left: 462px;
+top: 133px;
+
+font-family: 'Londrina Solid';
+font-style: normal;
+font-weight: 250;
+font-size: 600px;
+line-height: 710px;
+
+color: #FFFFFF;
+
+}
+
+/*
+p {
+
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 300;
+  text-align: left;
+  color: white;
+
+}
+*/
+
+#bg2 {
+
+  background-color: #EA4901;
+
+}
+
+.frame1 {
+  background-color: #E79600;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+
+  max-width: 100%;
+  margin: 0 auto;
+  clear: both;
+
+}
+
+.intro {
+
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  font-family: 'Londrina Solid';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: justify;
+  color: #FFFFFF;
+
+}
+
+#oregonstar {
+
+  width: 60%;
+  height: auto;
+  padding-left: 35%;
+  display: block;
+  margin: auto;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.year{
+
+  position: absolute;
+width: 359px;
+height: 265px;
+left: 13px;
+top: 158px;
+
+font-family: 'Londrina Solid';
+font-style: normal;
+font-weight: 250;
+font-size: 224px;
+line-height: 265px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+}
