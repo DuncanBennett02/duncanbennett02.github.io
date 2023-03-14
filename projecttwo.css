@@ -213,14 +213,14 @@ p {
 
 #f3c2 {
 
-  margin:0%;
-  padding: 0%;
+  margin-top:-5%;
 
 }
 
 #asset6 {
 
   width: 50%;
+  margin-top: -15%;
 
 }
 
@@ -300,6 +300,12 @@ p {
 
 }
 
+#f4c1 {
+
+  margin-top: -80%;
+
+}
+
 #asset15 {
 
 float: right; 
@@ -313,7 +319,6 @@ float: right;
     margin-top:-15%;
     font-size: 5rem;
     line-height: 4rem;
-    width: 100%;
 
   }
 
@@ -422,6 +427,40 @@ float: right;
   overflow-y: hidden;
 
 }
+
+.asset08 {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#Layer_2 {
+
+  width: 20%;
+
+}
+
+svg {
+  animation-name: oscillate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes oscillate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 
 /* FRAME 9 */
